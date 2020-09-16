@@ -91,8 +91,7 @@ public class Zip {
                 String Name = path + "\\" + s.substring(3, s.lastIndexOf(" "));
                 String NewName = path + "\\" + s.substring(s.lastIndexOf(" ") + 1);
                 File FILE = new File(Name);
-                /* System.out.println("path1  "+path1);
-            System.out.println("path  "+path);*/
+                //remove comment
                 if (FILE.renameTo(new File(NewName))) {
                     JOptionPane.showMessageDialog(null, "file rename");
                     FILE.delete();

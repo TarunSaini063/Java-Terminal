@@ -60,7 +60,7 @@ public class NewJFrame1 extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-
+        //Adding comment
         loginButton.setText("login");
         loginButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         loginButton.addActionListener(new java.awt.event.ActionListener() {
